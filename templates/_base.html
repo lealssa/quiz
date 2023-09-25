@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title%}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='style.css') }}">
+</head>
+
+<body>
+
+    <main class="hero is-fullheight has-background-white-ter" id="app">
+
+        <section class="hero-body">
+
+            <div class="container is-max-desktop">
+
+                <div class="section is-small has-text-centered">
+                    <h1 class="title">Python Quiz</h1>
+                    <h2 class="subtitle">Teste seus conhecimentos em Python</h2>
+                </div>
+
+                {% block content %} {% endblock %}
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<script src="https://unpkg.com/vue-demi"></script>
+<script src="https://cdn.jsdelivr.net/npm/@vuelidate/core"></script>
+<script src="https://cdn.jsdelivr.net/npm/@vuelidate/validators"></script>    
+<script type="module" src="{{ url_for('static', path='site.js') }}"></script>

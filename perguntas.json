@@ -1,0 +1,38 @@
+[
+  {
+    "texto_pergunta": "Quem descobriu o Brasil?",
+    "opcoes": [
+      {
+        "texto_opcao": "Pedro Álvares Cabral",
+        "opcao_correta": true,
+        "explicacao": "O navegador Pedro Álvares Cabral descobriu o Brasil em 1500"
+      },
+      {
+        "texto_opcao": "Cristovão Colombo",
+        "opcao_correta": false
+      },
+      {
+        "texto_opcao": "Fernão de Magalhães",
+        "opcao_correta": false
+      }
+    ]
+  },
+  {
+    "texto_pergunta": "Qual a capital do Brasil?",
+    "opcoes": [
+      {
+        "texto_opcao": "Brasília",
+        "opcao_correta": true,
+        "explicacao": "A capital do Brasil é Brasília desde de os anos 1960"
+      },
+      {
+        "texto_opcao": "Buenos Aires",
+        "opcao_correta": false
+      },
+      {
+        "texto_opcao": "Montevideo",
+        "opcao_correta": false
+      }
+    ]
+  }
+]

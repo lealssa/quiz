@@ -1,0 +1,14 @@
+{% extends '_base.html' %}
+
+{% block title %}Descomplica Python - Quiz{% endblock %}
+
+{% block content %}
+
+<div class="section box is-flex is-justify-content-center is-align-items-center" style="height: 50vh;">
+    <div class="lds-default" v-if="carregandoRegistros"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+    <pergunta-resposta></pergunta-resposta>
+    
+</div>
+
+{% endblock %}
